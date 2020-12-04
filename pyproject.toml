@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "advent2020"
+version = "0.1.0"
+description = ""
+authors = ["Colin Clapham <colinclapham18@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+pandas = "^1.0.3"
+numpy = "^1.18.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
